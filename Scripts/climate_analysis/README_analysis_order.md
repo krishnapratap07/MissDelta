@@ -16,34 +16,11 @@ Run in this order:
 10. `10_hurdle_specification_sensitivity.R`
 11. `11_amo_amm_correlation.R`
 
-## Important standardization rule
-
-NAO, ENSO, and AMM are standardized once on their unique annual values over
-WY1960-WY2020 **before** they are joined to the station-year flood panel.
-
-This is the corrected approach from the revised Part 1 and Part 2 scripts.
-All later R scripts read the same saved `df_cc` panel, so the scaling cannot
-change from one analysis to another.
 
 ## Required inputs
-
-- `Series_byStation_byPercentile_ERA5_daily.mat`
-- `NOA_data.csv`
+- `NOA.csv`
 - `oni.csv`
 - `amm.csv`
-- `AMO_data.txt`
+- `AMO.txt`
 - `wl_data.csv`
 
-The first two MATLAB scripts additionally create:
-
-- `flood_annual_counts_water_year_5_cat.csv`
-- `processed_noa.csv`
-- `processed_enso_ondjf.csv`
-- `AMM_annual_wateryear.csv`
-- `AMO_annual_wateryear.csv`
-
-## Outputs
-
-All R results are written to `final_outputs/`.
-
-Python plotting scripts can read the resulting CSV files separately.
