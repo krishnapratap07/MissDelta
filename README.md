@@ -36,7 +36,7 @@ The classification is evaluated using both the shorter observational coastal-sur
 
 The analysis is repeated for the 80th, 85th, 90th, and 95th percentile water-level thresholds.
 
-## 3. Temporal Changes in Flooding
+## 3. Temporal Changes in Flod days
 
 Classified flood days are aggregated to examine changes in both the total number of flood days and the relative occurrence of the five flood-day categories.
 
@@ -70,7 +70,7 @@ The same framework is also applied separately to the five flood-day categories.
 
 Additional single-driver models evaluate NAO and AMM separately, and alternative hurdle-model specifications are used as sensitivity analyses.
 
-## 6. Flood-Day Composition and Decomposition
+## 6. Flood-Day Composition
 
 A Dirichlet-multinomial model is used to examine whether NAO and AMM are associated with changes in the relative composition of the five flood-day categories while accounting for the total number of flood days.
 
