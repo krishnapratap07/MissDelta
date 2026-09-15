@@ -93,3 +93,9 @@ Final manuscript and supplementary figures are generated separately in **Python*
 - climate-model effect estimates;
 - single-driver sensitivity results; and
 - NAO and AMM Kitagawa decompositions.
+
+## License
+
+The analysis code in this repository is available under the MIT License.
+
+Data included or referenced in this repository are subject to the terms and conditions of their original data providers and are not relicensed under the MIT License unless explicitly stated otherwise.
